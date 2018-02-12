@@ -62,3 +62,10 @@ task.on('finish', () => {
     console.log('任务完成');
 });
 ```
+
+## 任务进度
+
+```javascript
+task.total; // 任务总数据，包含了子任务
+task.progress; // 任务进度，当前执行的任务和总任务的数量比例
+```
