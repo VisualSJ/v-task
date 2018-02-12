@@ -1,0 +1,26 @@
+{
+  "name": "v-task",
+  "version": "1.0.2",
+  "description": "任务队列管理",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "task"
+  ],
+  "author": "VisualSJ",
+  "license": "MIT",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/VisualSJ/v-task.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VisualSJ/v-task/issues"
+  },
+  "homepage": "https://github.com/VisualSJ/v-task#readme"
+}
