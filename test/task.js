@@ -3,9 +3,9 @@
 const assert = require('assert');
 const Task = require('../lib/task');
 
-describe('Task process', () => {
+describe('任务流程', () => {
 
-    it('single task', (done) => {
+    it('单任务事件触发顺序测试', (done) => {
         let messages = [];
 
         setTimeout(() => {
@@ -47,7 +47,7 @@ describe('Task process', () => {
         task.start();
     });
 
-    it('multi task', (done) => {
+    it('多任务事件触发顺序测试', (done) => {
         let messages = [];
 
         setTimeout(() => {
@@ -112,7 +112,7 @@ describe('Task process', () => {
         parent.start();
     });
 
-    it('pause single task', (done) => {
+    it('暂停任务测试', (done) => {
         let messages = [];
 
         setTimeout(() => {
@@ -156,7 +156,7 @@ describe('Task process', () => {
         parent.pause();
     });
 
-    it('pause multi task', (done) => {
+    it('多任务中途暂停测试', (done) => {
         let messages = [];
 
         setTimeout(() => {
